@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "lceda")(type "Legacy")(uri "/home/laojk/Board/what-pi/lib/kicad_lceda.lib")(options "")(descr ""))
+)

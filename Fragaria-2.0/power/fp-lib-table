@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "lceda")(type "KiCad")(uri "/home/laojk/Board/what-pi/lib/kicad_lceda.pretty")(options "")(descr ""))
+)
