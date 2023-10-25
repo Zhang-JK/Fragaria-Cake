@@ -1,0 +1,23 @@
+(module MIC-TH_BD4.0-P1.40-D0.3-L (layer F.Cu) (tedit 65355F92) 
+ (fp_text reference REF** (at 0 -3.207) (layer F.SilkS) 
+   (effects (font (size 1 1) (thickness 0.15)) (justify left))) 
+ (fp_text value std:363a5b0422a942d9a80e4f6a676bd027 (at 0 -0.667) (layer F.Fab) 
+   (effects (font (size 1 1) (thickness 0.15)) (justify left))) 
+ (pad 1 thru_hole rect (at 0.7 0) (size 1 1) (drill 0.5) (layers *.Cu *.Mask)) 
+ (pad 2 thru_hole circle (at -0.7 0) (size 1 1) (drill 0.5) (layers *.Cu *.Mask)) 
+ (fp_arc (start 0 0.508) (end 2.028 0.635) (angle 356.42384929226813) (layer F.SilkS) (width 0.254)) 
+ (fp_circle (center 0.7 1.27) (end 0.954 1.27) (layer F.SilkS) (width 0.254)) 
+ (model ${KIPRJMOD}/kicad_lceda.3dshapes/MIC-TH_BD4.0-H1.2-P1.40.step 
+   (offset (xyz 0 -0.508 -1.5)) (scale (xyz 1 1 1)) (rotate (xyz 0 0 0)) 
+  ) (model ${KIPRJMOD}/kicad_lceda.3dshapes/MIC-TH_BD4.0-H1.2-P1.40.wrl 
+   (offset (xyz 0 -0.508 -1.5)) (scale (xyz 1 1 1)) (rotate (xyz 0 0 0)) 
+  ) 
+ (fp_line (start -2.159 -1.651) (end 2.159 -1.651) (layer F.CrtYd) (width 0.12)) 
+ (fp_line (start 2.159 -1.651) (end 2.159 2.667) (layer F.CrtYd) (width 0.12)) 
+ (fp_line (start 2.159 2.667) (end -2.159 2.667) (layer F.CrtYd) (width 0.12)) 
+ (fp_line (start -2.159 2.667) (end -2.159 -1.651) (layer F.CrtYd) (width 0.12)) 
+ (fp_circle (center 0.7 0) (end 0.775 0) (layer Eco2.User) (width 0.15)) 
+ (fp_circle (center -0.7 0) (end -0.625 0) (layer Eco2.User) (width 0.15)) 
+ (fp_circle (center 2.159 -1.651) (end 2.189 -1.651) (layer Eco2.User) (width 0.06)) 
+ 
+)
