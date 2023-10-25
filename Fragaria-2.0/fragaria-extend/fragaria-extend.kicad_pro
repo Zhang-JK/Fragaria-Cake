@@ -60,10 +60,10 @@
         "version": 2
       },
       "rule_severities": {
-        "annular_width": "ignore",
-        "clearance": "ignore",
+        "annular_width": "error",
+        "clearance": "error",
         "connection_width": "warning",
-        "copper_edge_clearance": "ignore",
+        "copper_edge_clearance": "error",
         "copper_sliver": "warning",
         "courtyards_overlap": "error",
         "diff_pair_gap_out_of_range": "error",
@@ -95,7 +95,7 @@
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
-        "solder_mask_bridge": "warning",
+        "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
         "text_thickness": "warning",
@@ -193,8 +193,8 @@
           "drill": 0.2
         },
         {
-          "diameter": 0.3,
-          "drill": 0.4
+          "diameter": 0.4,
+          "drill": 0.3
         },
         {
           "diameter": 0.5,
@@ -418,7 +418,7 @@
       "no_connect_connected": "warning",
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
-      "pin_not_driven": "error",
+      "pin_not_driven": "ignore",
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
@@ -434,7 +434,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "fragaria-core.kicad_pro",
+    "filename": "fragaria-extend.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -511,7 +511,7 @@
   },
   "sheets": [
     [
-      "1bb88d68-3c12-4a7c-a5f6-31b6933dc025",
+      "ebba6853-a33a-4535-a504-e26fb0e04c92",
       ""
     ]
   ],
